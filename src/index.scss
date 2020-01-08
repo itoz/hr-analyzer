@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+@import './styles/main.scss';
+/* @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
+body {
+  /* margin: 0; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  margin: 0;
+  /* padding: 30px 5vw 100px; */
+  padding: 0;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvNoGpOiH-NTidC4XXIzRMfSQneaQ1m0pwXlP70LcC2QYnhbl9&s');
+}
+#root:before {
+  content: '';
+  background: inherit;
+  filter: blur(5px);
+  position: fixed;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+
+.minus {
+  color: #a73c86;
+}
+.plus {
+  color: #4041a7;
+}
+
+.Box {
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 4px rgba(23, 11, 66, 0.05);
+  margin-bottom: 2rem;
+  background-color: #fff;
+}
+
+.number {
+  font-family: 'Rajdhani', sans-serif;
+}
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */

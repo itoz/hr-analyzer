@@ -1,0 +1,10 @@
+.header {
+  background-color: rgba(40, 44, 52, 0.7);
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-size: 1.05rem;
+  color: white;
+}
